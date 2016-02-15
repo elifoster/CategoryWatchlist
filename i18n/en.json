@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Eli Clemente Gordillo Foster <elifosterwy@gmail.com>"
+        ]
+    },
+    "watchcategory": "Watched Categories Manager",
+    "categorywatchlist-desc": "Category-based watchlist management",
+    "categorywatchlist-watch": "Add a category",
+    "categorywatchlist-del": "Delete a category",
+    "categorywatchlist-submit": "Submit",
+    "categorywatchlist-finish": "Finished updating."
+}

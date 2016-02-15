@@ -1,0 +1,28 @@
+{
+    "name": "CategoryWatchlist",
+    "version": "1.0.0",
+    "author": "Eli Clemente Gordillo Foster",
+    "url": "https://github.com/elifoster/CategoryWatchlist",
+    "descriptionmsg": "categorywatchlist-desc",
+    "type": "other",
+    "MessageDirs": {
+        "CategoryWatchlist": [
+            "i18n"
+        ]
+    },
+    "ExtensionMessagesFiles": {
+        "CategoryWatchlist": "CategoryWatchlist.i18n.php"
+    },
+    "SpecialPages": {
+        "WatchCategory": "WatchCategory"
+    },
+    "AutoloadClasses": {
+        "CategoryWatchlistHooks": "CategoryWatchlist.hooks.php",
+        "WatchCategory": "special/SpecialWatchCategory.php"
+    },
+    "Hooks": {
+        "PageContentSave": [
+            "CategoryWatchlistHooks::onPreSave"
+        ]
+    }
+}
